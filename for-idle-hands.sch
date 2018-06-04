@@ -1,0 +1,617 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:for-idle-hands-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "For Idle Hands"
+Date "2018-01-01"
+Rev "rev1"
+Comp "u/peejeh"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ProMicro U1
+U 1 1 5A4909A8
+P 2350 2300
+F 0 "U1" H 2350 1450 60  0000 C CNN
+F 1 "ProMicro" H 2350 2750 60  0000 C CNN
+F 2 "idle-hands:Pro_Micro_ChipSideDown" H 2350 2300 60  0001 C CNN
+F 3 "" H 2350 2300 60  0001 C CNN
+	1    2350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K1:2
+U 1 1 5A490D0E
+P 9160 1790
+F 0 "K1:2" H 9110 1790 60  0000 C CNN
+F 1 "K4" H 9160 1690 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 9160 1790 60  0001 C CNN
+F 3 "" H 9160 1790 60  0000 C CNN
+	1    9160 1790
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D2
+U 1 1 5A490D4C
+P 9460 1940
+F 0 "D2" H 9460 2040 50  0000 C CNN
+F 1 "D" H 9460 1840 50  0000 C CNN
+F 2 "idle-hands:DIODE" H 9460 1940 50  0001 C CNN
+F 3 "" H 9460 1940 50  0001 C CNN
+	1    9460 1940
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KEYSW K1:1
+U 1 1 5A490F61
+P 10260 1790
+F 0 "K1:1" H 10210 1790 60  0000 C CNN
+F 1 "K5" H 10260 1690 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 10260 1790 60  0001 C CNN
+F 3 "" H 10260 1790 60  0000 C CNN
+	1    10260 1790
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D1
+U 1 1 5A490F9F
+P 10560 1940
+F 0 "D1" H 10560 2040 50  0000 C CNN
+F 1 "D" H 10560 1840 50  0000 C CNN
+F 2 "idle-hands:DIODE" H 10560 1940 50  0001 C CNN
+F 3 "" H 10560 1940 50  0001 C CNN
+	1    10560 1940
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6310 2090 10560 2090
+Connection ~ 9460 2090
+$Comp
+L KEYSW K2:2
+U 1 1 5A491802
+P 9160 2440
+F 0 "K2:2" H 9110 2440 60  0000 C CNN
+F 1 "K14" H 9160 2340 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 9160 2440 60  0001 C CNN
+F 3 "" H 9160 2440 60  0000 C CNN
+	1    9160 2440
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D4
+U 1 1 5A491808
+P 9460 2590
+F 0 "D4" H 9460 2690 50  0000 C CNN
+F 1 "D" H 9460 2490 50  0000 C CNN
+F 2 "idle-hands:DIODE" H 9460 2590 50  0001 C CNN
+F 3 "" H 9460 2590 50  0001 C CNN
+	1    9460 2590
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KEYSW K2:1
+U 1 1 5A49180E
+P 10260 2440
+F 0 "K2:1" H 10210 2440 60  0000 C CNN
+F 1 "K15" H 10260 2340 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 10260 2440 60  0001 C CNN
+F 3 "" H 10260 2440 60  0000 C CNN
+	1    10260 2440
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D3
+U 1 1 5A491814
+P 10560 2590
+F 0 "D3" H 10560 2690 50  0000 C CNN
+F 1 "D" H 10560 2490 50  0000 C CNN
+F 2 "idle-hands:DIODE" H 10560 2590 50  0001 C CNN
+F 3 "" H 10560 2590 50  0001 C CNN
+	1    10560 2590
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6310 2740 10560 2740
+Connection ~ 9460 2740
+$Comp
+L KEYSW K3:4
+U 1 1 5A491AE3
+P 7060 3090
+F 0 "K3:4" H 7010 3090 60  0000 C CNN
+F 1 "K22" H 7060 2990 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 7060 3090 60  0001 C CNN
+F 3 "" H 7060 3090 60  0000 C CNN
+	1    7060 3090
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K3:3
+U 1 1 5A491AE9
+P 8060 3090
+F 0 "K3:3" H 8010 3090 60  0000 C CNN
+F 1 "K23" H 8060 2990 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 8060 3090 60  0001 C CNN
+F 3 "" H 8060 3090 60  0000 C CNN
+	1    8060 3090
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D8
+U 1 1 5A491AEF
+P 7360 3240
+F 0 "D8" H 7360 3340 50  0000 C CNN
+F 1 "D" H 7360 3140 50  0000 C CNN
+F 2 "idle-hands:DIODE" H 7360 3240 50  0001 C CNN
+F 3 "" H 7360 3240 50  0001 C CNN
+	1    7360 3240
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D7
+U 1 1 5A491AF5
+P 8360 3240
+F 0 "D7" H 8360 3340 50  0000 C CNN
+F 1 "D" H 8360 3140 50  0000 C CNN
+F 2 "idle-hands:DIODE" H 8360 3240 50  0001 C CNN
+F 3 "" H 8360 3240 50  0001 C CNN
+	1    8360 3240
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KEYSW K3:2
+U 1 1 5A491AFB
+P 9160 3090
+F 0 "K3:2" H 9110 3090 60  0000 C CNN
+F 1 "K24" H 9160 2990 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 9160 3090 60  0001 C CNN
+F 3 "" H 9160 3090 60  0000 C CNN
+	1    9160 3090
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D6
+U 1 1 5A491B01
+P 9460 3240
+F 0 "D6" H 9460 3340 50  0000 C CNN
+F 1 "D" H 9460 3140 50  0000 C CNN
+F 2 "idle-hands:DIODE" H 9460 3240 50  0001 C CNN
+F 3 "" H 9460 3240 50  0001 C CNN
+	1    9460 3240
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KEYSW K3:1
+U 1 1 5A491B07
+P 10260 3090
+F 0 "K3:1" H 10210 3090 60  0000 C CNN
+F 1 "K25" H 10260 2990 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 10260 3090 60  0001 C CNN
+F 3 "" H 10260 3090 60  0000 C CNN
+	1    10260 3090
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D5
+U 1 1 5A491B0D
+P 10560 3240
+F 0 "D5" H 10560 3340 50  0000 C CNN
+F 1 "D" H 10560 3140 50  0000 C CNN
+F 2 "idle-hands:DIODE" H 10560 3240 50  0001 C CNN
+F 3 "" H 10560 3240 50  0001 C CNN
+	1    10560 3240
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5190 3390 10560 3390
+Connection ~ 7360 3390
+Connection ~ 9460 3390
+Connection ~ 8360 3390
+$Comp
+L KEYSW K4:4
+U 1 1 5A49238B
+P 7060 3740
+F 0 "K4:4" H 7010 3740 60  0000 C CNN
+F 1 "K32" H 7060 3640 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 7060 3740 60  0001 C CNN
+F 3 "" H 7060 3740 60  0000 C CNN
+	1    7060 3740
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K4:3
+U 1 1 5A492391
+P 8060 3740
+F 0 "K4:3" H 8010 3740 60  0000 C CNN
+F 1 "K33" H 8060 3640 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 8060 3740 60  0001 C CNN
+F 3 "" H 8060 3740 60  0000 C CNN
+	1    8060 3740
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D12
+U 1 1 5A492397
+P 7360 3890
+F 0 "D12" H 7360 3990 50  0000 C CNN
+F 1 "D" H 7360 3790 50  0000 C CNN
+F 2 "idle-hands:DIODE" H 7360 3890 50  0001 C CNN
+F 3 "" H 7360 3890 50  0001 C CNN
+	1    7360 3890
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D11
+U 1 1 5A49239D
+P 8360 3890
+F 0 "D11" H 8360 3990 50  0000 C CNN
+F 1 "D" H 8360 3790 50  0000 C CNN
+F 2 "idle-hands:DIODE" H 8360 3890 50  0001 C CNN
+F 3 "" H 8360 3890 50  0001 C CNN
+	1    8360 3890
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KEYSW K4:2
+U 1 1 5A4923A3
+P 9160 3740
+F 0 "K4:2" H 9110 3740 60  0000 C CNN
+F 1 "K34" H 9160 3640 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 9160 3740 60  0001 C CNN
+F 3 "" H 9160 3740 60  0000 C CNN
+	1    9160 3740
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D10
+U 1 1 5A4923A9
+P 9460 3890
+F 0 "D10" H 9460 3990 50  0000 C CNN
+F 1 "D" H 9460 3790 50  0000 C CNN
+F 2 "idle-hands:DIODE" H 9460 3890 50  0001 C CNN
+F 3 "" H 9460 3890 50  0001 C CNN
+	1    9460 3890
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KEYSW K4:1
+U 1 1 5A4923AF
+P 10260 3740
+F 0 "K4:1" H 10210 3740 60  0000 C CNN
+F 1 "K35" H 10260 3640 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 10260 3740 60  0001 C CNN
+F 3 "" H 10260 3740 60  0000 C CNN
+	1    10260 3740
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D9
+U 1 1 5A4923B5
+P 10560 3890
+F 0 "D9" H 10560 3990 50  0000 C CNN
+F 1 "D" H 10560 3790 50  0000 C CNN
+F 2 "idle-hands:DIODE" H 10560 3890 50  0001 C CNN
+F 3 "" H 10560 3890 50  0001 C CNN
+	1    10560 3890
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5190 4040 10560 4040
+Connection ~ 7360 4040
+Connection ~ 9460 4040
+Connection ~ 8360 4040
+Wire Wire Line
+	6760 1790 6760 4390
+Connection ~ 6760 3090
+Connection ~ 6760 3740
+Wire Wire Line
+	7760 1790 7760 4390
+Connection ~ 7760 3090
+Connection ~ 7760 3740
+Wire Wire Line
+	8860 1790 8860 4390
+Connection ~ 8860 3090
+Connection ~ 8860 3740
+Connection ~ 9960 2440
+Connection ~ 9960 3090
+Connection ~ 9960 3740
+Text Label 1850 3050 2    60   ~ 0
+row1
+Text Label 1850 2950 2    60   ~ 0
+row2
+Text Label 1850 2850 2    60   ~ 0
+row3
+Text Label 1850 2750 2    60   ~ 0
+row4
+Text Label 2850 2450 0    60   ~ 0
+col3
+Text Label 2850 2550 0    60   ~ 0
+col4
+Text Label 2850 2950 0    60   ~ 0
+col5
+Text Label 2850 3050 0    60   ~ 0
+col6
+$Comp
+L VCC #PWR01
+U 1 1 5A496719
+P 2850 2250
+F 0 "#PWR01" H 2850 2100 50  0001 C CNN
+F 1 "VCC" H 2850 2400 50  0000 C CNN
+F 2 "" H 2850 2250 50  0001 C CNN
+F 3 "" H 2850 2250 50  0001 C CNN
+	1    2850 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5A4967C6
+P 1850 2150
+F 0 "#PWR02" H 1850 1900 50  0001 C CNN
+F 1 "GND" H 1850 2000 50  0000 C CNN
+F 2 "" H 1850 2150 50  0001 C CNN
+F 3 "" H 1850 2150 50  0001 C CNN
+	1    1850 2150
+	0    1    1    0   
+$EndComp
+Text Label 1850 2450 2    60   ~ 0
+data
+NoConn ~ 1850 2050
+NoConn ~ 1850 2250
+Text Label 1850 2550 2    60   ~ 0
+col1
+Text Label 1850 2650 2    60   ~ 0
+col2
+Text Label 6310 2090 2    60   ~ 0
+row1
+Text Label 6310 2740 2    60   ~ 0
+row2
+Text Label 5190 4040 2    60   ~ 0
+row4
+NoConn ~ 2850 1950
+NoConn ~ 2850 2150
+Text Label 9960 1790 2    60   ~ 0
+col1
+Text Label 8860 1790 2    60   ~ 0
+col2
+Text Label 7760 1790 2    60   ~ 0
+col3
+Text Label 6760 1790 2    60   ~ 0
+col4
+$Comp
+L VCC #PWR03
+U 1 1 5A49CD48
+P 1700 4400
+F 0 "#PWR03" H 1700 4250 50  0001 C CNN
+F 1 "VCC" H 1700 4550 50  0000 C CNN
+F 2 "" H 1700 4400 50  0001 C CNN
+F 3 "" H 1700 4400 50  0001 C CNN
+	1    1700 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5A49D83D
+P 2100 4200
+F 0 "#PWR04" H 2100 3950 50  0001 C CNN
+F 1 "GND" H 2100 4050 50  0000 C CNN
+F 2 "" H 2100 4200 50  0001 C CNN
+F 3 "" H 2100 4200 50  0001 C CNN
+	1    2100 4200
+	0    -1   -1   0   
+$EndComp
+Text Label 2100 4000 0    60   ~ 0
+data
+Text Label 2100 4100 0    60   ~ 0
+extra
+Text Label 3710 2450 2    60   ~ 0
+row1
+Text Label 3710 2550 2    60   ~ 0
+row2
+Text Label 3710 2650 2    60   ~ 0
+row3
+Text Label 3710 2750 2    60   ~ 0
+row4
+Text Label 3710 3050 2    60   ~ 0
+col6
+$Comp
+L Conn_01x01 J4
+U 1 1 5A4AB93C
+P 2750 5200
+F 0 "J4" H 2750 5300 50  0000 C CNN
+F 1 "EXTRADATA" H 2750 5100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 2750 5200 50  0001 C CNN
+F 3 "" H 2750 5200 50  0001 C CNN
+	1    2750 5200
+	1    0    0    -1  
+$EndComp
+Text Label 2550 5200 2    60   ~ 0
+extra
+$Comp
+L Conn_01x10 J3
+U 1 1 5A4D3372
+P 3910 2550
+F 0 "J3" H 3910 3350 50  0000 C CNN
+F 1 "Conn_01x10" H 3910 1750 50  0000 C CNN
+F 2 "idle-hands:CONNECTOR_10" H 3910 2550 50  0001 C CNN
+F 3 "" H 3910 2550 50  0001 C CNN
+	1    3910 2550
+	1    0    0    -1  
+$EndComp
+Text Label 3710 2150 2    60   ~ 0
+col1
+Text Label 3710 2250 2    60   ~ 0
+col2
+Text Label 3710 2350 2    60   ~ 0
+col3
+Text Label 3710 2850 2    60   ~ 0
+col4
+Text Label 3710 2950 2    60   ~ 0
+col5
+Connection ~ 8860 2440
+NoConn ~ 2850 2050
+Wire Wire Line
+	9960 1790 9960 4390
+Text Label 5190 3390 2    60   ~ 0
+row3
+NoConn ~ 2850 2350
+NoConn ~ 2850 2750
+NoConn ~ 2850 2850
+NoConn ~ 1850 2350
+NoConn ~ 1850 1950
+NoConn ~ 2850 2650
+$Comp
+L Audio-Jack-4 J1
+U 1 1 5A49B9B2
+P 1900 4000
+F 0 "J1" H 1850 4080 50  0000 C CNN
+F 1 "TRRS" H 2020 3630 50  0000 C CNN
+F 2 "idle-hands:PJ-320A" H 2150 4100 50  0001 C CNN
+F 3 "" H 2150 4100 50  0001 C CNN
+	1    1900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio-Jack-4 J2
+U 1 1 5AECBC99
+P 3040 4000
+F 0 "J2" H 2990 4080 50  0000 C CNN
+F 1 "TRRS" H 3160 3630 50  0000 C CNN
+F 2 "idle-hands:PJ-320A" H 3290 4100 50  0001 C CNN
+F 3 "" H 3290 4100 50  0001 C CNN
+	1    3040 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR05
+U 1 1 5AECBDCE
+P 2840 4400
+F 0 "#PWR05" H 2840 4250 50  0001 C CNN
+F 1 "VCC" H 2840 4550 50  0000 C CNN
+F 2 "" H 2840 4400 50  0001 C CNN
+F 3 "" H 2840 4400 50  0001 C CNN
+	1    2840 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5AECBE30
+P 3240 4200
+F 0 "#PWR06" H 3240 3950 50  0001 C CNN
+F 1 "GND" H 3240 4050 50  0000 C CNN
+F 2 "" H 3240 4200 50  0001 C CNN
+F 3 "" H 3240 4200 50  0001 C CNN
+	1    3240 4200
+	0    -1   -1   0   
+$EndComp
+Text Label 3240 4100 0    60   ~ 0
+extra
+Text Label 3240 4000 0    60   ~ 0
+data
+$Comp
+L Conn_01x03 J5
+U 1 1 5AECC21A
+P 4160 3920
+F 0 "J5" H 4160 4120 50  0000 C CNN
+F 1 "Conn_01x03" H 4160 3620 50  0000 C CNN
+F 2 "idle-hands:CONNECTOR_3" H 4160 3920 50  0001 C CNN
+F 3 "" H 4160 3920 50  0001 C CNN
+	1    4160 3920
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J6
+U 1 1 5AECC325
+P 4160 4620
+F 0 "J6" H 4160 4820 50  0000 C CNN
+F 1 "Conn_01x03" H 4160 4320 50  0000 C CNN
+F 2 "idle-hands:CONNECTOR_3" H 4160 4620 50  0001 C CNN
+F 3 "" H 4160 4620 50  0001 C CNN
+	1    4160 4620
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR07
+U 1 1 5AECC451
+P 3960 4020
+F 0 "#PWR07" H 3960 3870 50  0001 C CNN
+F 1 "VCC" H 3960 4170 50  0000 C CNN
+F 2 "" H 3960 4020 50  0001 C CNN
+F 3 "" H 3960 4020 50  0001 C CNN
+	1    3960 4020
+	0    -1   -1   0   
+$EndComp
+Text Label 3960 3920 2    60   ~ 0
+data
+$Comp
+L GND #PWR08
+U 1 1 5AECC69A
+P 3960 3820
+F 0 "#PWR08" H 3960 3570 50  0001 C CNN
+F 1 "GND" H 3960 3670 50  0000 C CNN
+F 2 "" H 3960 3820 50  0001 C CNN
+F 3 "" H 3960 3820 50  0001 C CNN
+	1    3960 3820
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR09
+U 1 1 5AECC7BE
+P 3960 4520
+F 0 "#PWR09" H 3960 4370 50  0001 C CNN
+F 1 "VCC" H 3960 4670 50  0000 C CNN
+F 2 "" H 3960 4520 50  0001 C CNN
+F 3 "" H 3960 4520 50  0001 C CNN
+	1    3960 4520
+	0    -1   -1   0   
+$EndComp
+Text Label 3960 4620 2    60   ~ 0
+data
+$Comp
+L GND #PWR010
+U 1 1 5AECC8E4
+P 3960 4720
+F 0 "#PWR010" H 3960 4470 50  0001 C CNN
+F 1 "GND" H 3960 4570 50  0000 C CNN
+F 2 "" H 3960 4720 50  0001 C CNN
+F 3 "" H 3960 4720 50  0001 C CNN
+	1    3960 4720
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
